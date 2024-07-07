@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "my_patient.h"
-#include "my_exam.h"
+#include "include/my_patient.h"
+#include "include/my_exam.h"
 #include <time.h>
 
 // Supondo que as funções e estruturas Patient e Exam estejam definidas em outro lugar
