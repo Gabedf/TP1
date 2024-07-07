@@ -4,11 +4,6 @@
 #include <time.h>
 #include <string.h>
 
-typedef struct {
-    int id, patient_id, rx_id;
-    struct tm* time;
-} Exam;
-
 Exam *create_exam(int id, int patient_id, int rx_id, struct tm *time) {
     Exam *exam = (Exam*)(malloc(sizeof(Exam)));
     if (exam == NULL) {
